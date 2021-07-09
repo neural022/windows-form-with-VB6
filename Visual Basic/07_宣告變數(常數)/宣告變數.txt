@@ -1,0 +1,3 @@
+办all跋办(场だ)
+Dim xxx as Single xxx
+盽计Const xxx as Single xxx

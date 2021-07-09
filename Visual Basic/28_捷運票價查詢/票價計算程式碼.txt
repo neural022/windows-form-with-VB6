@@ -1,0 +1,44 @@
+
+If w < 5 Then
+    x = 20
+    y = 16
+    z = 8
+ElseIf w < 8 Then
+    x = 25
+    y = 20
+    z = 10
+ElseIf w < 11 Then
+    x = 30
+    y = 24
+    z = 12
+ElseIf w < 14 Then
+    x = 35
+    y = 28
+    z = 14
+ElseIf w < 17 Then
+    x = 40
+    y = 32
+    z = 16
+ElseIf w < 20 Then
+    x = 45
+    y = 36
+    z = 18
+ElseIf w < 23 Then
+    x = 50
+    y = 40
+    z = 20
+ElseIf w < 27 Then
+    x = 55
+    y = 44
+    z = 22
+ElseIf w < 31 Then
+    x = 60
+    y = 48
+    z = 24
+Else
+    x = 65
+    y = 48
+    z = 28
+End If
+
+Label3.Caption = "單程票：" & x & "元" & Chr(10) & Chr(10) & "悠遊卡/一卡通：" & y & "元" & Chr(10) & Chr(10) & "敬老卡、愛心卡、愛心陪伴卡：" & z & "元"
